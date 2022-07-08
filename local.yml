@@ -1,8 +1,9 @@
+
 ---
 - hosts: localhost
   become: true
   tasks:
-  - name; Install Apache
+  - name: Install Apache
     apt: name=apache2
   - name: Start the apache2 services
     service:
