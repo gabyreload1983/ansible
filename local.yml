@@ -9,7 +9,3 @@
     service:
       name: apache2
       state: started
-  - name: Copy index.html
-    copy:
-      src: index.html
-      dest: /var/www/html/index.html
